@@ -13,6 +13,8 @@
 
     <!-- Bootstrap core CSS -->
     <link href="stylesheets/bootstrap.css" rel="stylesheet">
+     <script src="js/bootstrap.js"></script>
+  <script src="js/jquery.js"></script>
         <!-- Custom styles for this template -->
     <link href="stylesheets/font-awesome.css" rel="stylesheet">
     <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> 
@@ -23,25 +25,24 @@
 
     <div class="container">
       <div class="header clearfix">
-        <nav>
-          <div class="nav nav-header">
-             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
+        <div class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <h3 class="text-muted">Cuz <sub>Excavating</sub></h3><p>Demolition & Construction</p>
+            </div>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".collapseData">
+              Home
             </button>
+            <div class="collapse navbar-collapse collapseData"> 
+            <ul class="nav navbar-nav nav-pills pull-right">
+              <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div><!-- Close navbar-collapse -->
           </div>
-          <div id="navbar">
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">Team</a></li>
-            <li role="presentation"><a href="#">Services</a></li>
-            <li role="presentation"><a href="contact.html">Contact</a></li>
-          </ul>
         </div>
-        </nav>
-        <h3 class="text-muted">Cuz <sub>Excavating</sub></h3><p>Demolition & Construction</p>
       </div>
 
       <div class="jumbotron">
@@ -74,7 +75,6 @@
     </div> <!-- /container -->
 
 <!-- JavaScript placed at bottom for better loading performance -->
-  <script src="js/bootstrap.js"></script>
-     <script src="js/jquery.js"></script>
+ 
   </body>
 </html>

@@ -35,12 +35,17 @@
 }
 
 /* Custom navbar */
-/* line 3, ../sass/layouts/_navbar.scss */
+/* line 2, ../sass/layouts/_navbar.scss */
+.navbar-toggle {
+  background: #f0b823 !important;
+}
+
+/* line 5, ../sass/layouts/_navbar.scss */
 .nav > li > a {
   color: #000000 !important;
 }
 
-/* line 7, ../sass/layouts/_navbar.scss */
+/* line 9, ../sass/layouts/_navbar.scss */
 .nav > li > a:hover, .nav > .active > a {
   background: #f0b823 !important;
 }
