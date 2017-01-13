@@ -20,16 +20,26 @@
 
     <div class="container">
       <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation"><a href="index.html">Home</a></li>
-            <li role="presentation"><a href="#">Team</a></li>
-            <li role="presentation"><a href="#">Services</a></li>
-            <li role="presentation" class="active"><a href="#">Contact</a></li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">Cuz <sub>Excavating</sub></h3><p>Demolition & Construction</p>
+        <div class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <h3 class="text-muted">Cuz <sub>Excavating</sub></h3><p>Demolition & Construction</p>
+            </div>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".collapseData">
+              Home
+            </button>
+            <div class="collapse navbar-collapse collapseData"> 
+            <ul class="nav navbar-nav nav-pills pull-right">
+              <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+              <li><a href="team.html">Team</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div><!-- Close navbar-collapse -->
+          </div>
+        </div>
       </div>
+
 <!-- Warning for Site Incomplete -->
       <div class="alert alert-danger text-center" role="alert"><p>This page is under construction</p>
       </div><!-- Close warning -->

@@ -35,12 +35,17 @@
 }
 
 /* Custom navbar */
-/* line 3, ../sass/layouts/_navbar.scss */
+/* line 2, ../sass/layouts/_navbar.scss */
+.navbar-toggle {
+  background: #f0b823 !important;
+}
+
+/* line 5, ../sass/layouts/_navbar.scss */
 .nav > li > a {
   color: #000000 !important;
 }
 
-/* line 7, ../sass/layouts/_navbar.scss */
+/* line 9, ../sass/layouts/_navbar.scss */
 .nav > li > a:hover, .nav > .active > a {
   background: #f0b823 !important;
 }
@@ -70,7 +75,7 @@ body {
 /* line 2, ../sass/layouts/_marketing.scss */
 .jumbotron {
   min-height: 350px;
-  background: #000 url("https://pixabay.com/en/photos/download/guam-86022_1920.jpg?attachment") center center;
+  background: url("https://pixabay.com/en/photos/download/guam-86022_1920.jpg?attachment") center center;
   text-align: center;
   background-size: cover;
   border-bottom: 1px solid #e5e5e5;
