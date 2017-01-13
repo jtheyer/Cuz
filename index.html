@@ -13,8 +13,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="stylesheets/bootstrap.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
+        <!-- Custom styles for this template -->
     <link href="stylesheets/font-awesome.css" rel="stylesheet">
     <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> 
     <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -25,12 +24,22 @@
     <div class="container">
       <div class="header clearfix">
         <nav>
+          <div class="nav nav-header">
+             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div id="navbar">
           <ul class="nav nav-pills pull-right">
             <li role="presentation" class="active"><a href="#">Home</a></li>
             <li role="presentation"><a href="#">Team</a></li>
             <li role="presentation"><a href="#">Services</a></li>
             <li role="presentation"><a href="contact.html">Contact</a></li>
           </ul>
+        </div>
         </nav>
         <h3 class="text-muted">Cuz <sub>Excavating</sub></h3><p>Demolition & Construction</p>
       </div>
@@ -65,7 +74,7 @@
     </div> <!-- /container -->
 
 <!-- JavaScript placed at bottom for better loading performance -->
+  <script src="js/bootstrap.js"></script>
      <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
   </body>
 </html>
