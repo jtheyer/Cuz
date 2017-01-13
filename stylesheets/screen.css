@@ -2,86 +2,127 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/*@import "compass/reset"; */
-/* Space out content a bit */
-/* line 9, ../sass/screen.scss */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
+/* @import "compass/reset"; */
+/**** Variables *****/
 /* Everything but the jumbotron gets side spacing for mobile first views */
-/* line 15, ../sass/screen.scss */
+/* line 2, ../sass/layouts/_header.scss */
 .header,
-.marketing,
 .footer {
   padding-right: 15px;
   padding-left: 15px;
 }
 
 /* Custom page header */
-/* line 23, ../sass/screen.scss */
+/* line 9, ../sass/layouts/_header.scss */
 .header {
+  padding-top: 5px;
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
 }
 
 /* Make the masthead heading the same height as the navigation */
-/* line 28, ../sass/screen.scss */
+/* line 15, ../sass/layouts/_header.scss */
 .header h3 {
+  color: #000000;
   margin-top: 0;
   margin-bottom: 0;
   line-height: 40px;
 }
 
+/* line 21, ../sass/layouts/_header.scss */
+.header p {
+  color: #2f4f4f;
+}
+
+/* Custom navbar */
+/* line 3, ../sass/layouts/_navbar.scss */
+.nav > li > a {
+  color: #000000 !important;
+}
+
+/* line 7, ../sass/layouts/_navbar.scss */
+.nav > li > a:hover, .nav > .active > a {
+  background: #f0b823 !important;
+}
+
+/* Space out content a bit */
+/**** Base Template *****/
+/* line 4, ../sass/_base.scss */
+body {
+  background: #f7f7f7;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  /* line 12, ../sass/_base.scss */
+  .container {
+    max-width: 730px;
+  }
+}
+/* line 16, ../sass/_base.scss */
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+/* line 2, ../sass/layouts/_marketing.scss */
+.jumbotron {
+  min-height: 350px;
+  background: #000 url("https://pixabay.com/en/photos/download/guam-86022_1920.jpg?attachment") center center;
+  text-align: center;
+  background-size: cover;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 9, ../sass/layouts/_marketing.scss */
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* line 13, ../sass/layouts/_marketing.scss */
+jframe {
+  margin-left: 50px;
+}
+
+/* Supporting marketing content */
+/* line 18, ../sass/layouts/_marketing.scss */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 40px 0;
+}
+
+/*
+.marketing p + h4 {
+  margin-top: 28px;
+  background: gray;
+} 
+*/
+/* line 29, ../sass/layouts/_marketing.scss */
+.marketing h3 {
+  text-align: left;
+}
+
+/* line 32, ../sass/layouts/_marketing.scss */
+.block a {
+  background: #f0b823;
+}
+
 /* Custom page footer */
-/* line 35, ../sass/screen.scss */
+/* line 2, ../sass/layouts/_footer.scss */
 .footer {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
 }
 
-/* Customize container */
-@media (min-width: 768px) {
-  /* line 43, ../sass/screen.scss */
-  .container {
-    max-width: 730px;
-  }
-}
-/* line 47, ../sass/screen.scss */
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-/* line 52, ../sass/screen.scss */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-/* line 56, ../sass/screen.scss */
-.jumbotron .btn {
-  padding: 14px 24px;
-  font-size: 21px;
-}
-
-/* Supporting marketing content */
-/* line 62, ../sass/screen.scss */
-.marketing {
-  margin: 40px 0;
-}
-
-/* line 65, ../sass/screen.scss */
-.marketing p + h4 {
-  margin-top: 28px;
-}
-
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   /* Remove the padding we set earlier */
-  /* line 72, ../sass/screen.scss */
+  /* line 4, ../sass/layouts/_responsive.scss */
   .header,
   .marketing,
   .footer {
@@ -90,13 +131,13 @@ body {
   }
 
   /* Space out the masthead */
-  /* line 79, ../sass/screen.scss */
+  /* line 11, ../sass/layouts/_responsive.scss */
   .header {
     margin-bottom: 30px;
   }
 
   /* Remove the bottom border on the jumbotron for visual effect */
-  /* line 83, ../sass/screen.scss */
+  /* line 15, ../sass/layouts/_responsive.scss */
   .jumbotron {
     border-bottom: 0;
   }
