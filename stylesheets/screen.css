@@ -80,26 +80,29 @@ body {
 /* Main marketing message and sign up button */
 /* line 2, ../sass/layouts/_marketing.scss */
 .jumbotron {
+  position: relative;
   min-height: 350px;
-  background: url("https://pixabay.com/en/photos/download/guam-86022_1920.jpg?attachment") center center;
-  text-align: center;
-  background-size: cover;
   border-bottom: 1px solid #e5e5e5;
+  background: url("img/dozer.jpg") center;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  overflow: hidden;
 }
 
-/* line 9, ../sass/layouts/_marketing.scss */
+/* line 12, ../sass/layouts/_marketing.scss */
 .jumbotron .btn {
   padding: 14px 24px;
   font-size: 21px;
 }
 
-/* line 13, ../sass/layouts/_marketing.scss */
+/* line 16, ../sass/layouts/_marketing.scss */
 jframe {
   margin-left: 50px;
 }
 
 /* Supporting marketing content */
-/* line 18, ../sass/layouts/_marketing.scss */
+/* line 21, ../sass/layouts/_marketing.scss */
 .marketing {
   padding-right: 15px;
   padding-left: 15px;
@@ -112,14 +115,14 @@ jframe {
   background: gray;
 } 
 */
-/* line 29, ../sass/layouts/_marketing.scss */
+/* line 32, ../sass/layouts/_marketing.scss */
 .marketing h3 {
   text-align: left;
 }
 
-/* line 32, ../sass/layouts/_marketing.scss */
-.block a {
-  background: #f0b823;
+/* line 35, ../sass/layouts/_marketing.scss */
+h3 a {
+  background: #f0b823 !important;
 }
 
 /* Custom page footer */
@@ -152,4 +155,36 @@ jframe {
   .jumbotron {
     border-bottom: 0;
   }
+}
+/**** Blocks ****/
+/* line 2, ../sass/layouts/_blocks.scss */
+.block {
+  padding: 15px;
+}
+
+/* line 6, ../sass/layouts/_blocks.scss */
+.block img {
+  width: 100%;
+  border: 2px solid #000;
+}
+
+/* line 10, ../sass/layouts/_blocks.scss */
+div .residential-section {
+  padding-bottom: 35px;
+}
+
+/* line 13, ../sass/layouts/_blocks.scss */
+div .block-residential {
+  margin-right: 0px;
+  background: rgba(54, 124, 43, 0.3);
+}
+
+/* line 18, ../sass/layouts/_blocks.scss */
+.block-ag h4 {
+  text-align: left;
+}
+
+/* line 22, ../sass/layouts/_blocks.scss */
+div .ag-section {
+  padding-bottom: 35px;
 }
