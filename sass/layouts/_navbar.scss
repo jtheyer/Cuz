@@ -1,7 +1,14 @@
 /* Custom navbar */ 
-.navbar-toggle{
-	background: rgb(240,184,35) !important;
+
+/* Collapse Button */
+.navbar .navbar-toggle {
+	background-color:#000;
+	.icon-bar{
+	background-color: rgb(240,184,35) !important;
+	}
 }
+
+/* Nav Pills */
 .nav > li > a {
 	color :#000000 !important;
 }
