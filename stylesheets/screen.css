@@ -22,7 +22,7 @@
 
 /* Make the masthead heading the same height as the navigation */
 /* line 15, ../sass/layouts/_header.scss */
-.header h3 {
+.header h2 {
   color: #000000;
   margin-top: 0;
   margin-bottom: 0;
@@ -35,17 +35,23 @@
 }
 
 /* Custom navbar */
-/* line 2, ../sass/layouts/_navbar.scss */
-.navbar-toggle {
-  background: #f0b823 !important;
+/* Collapse Button */
+/* line 4, ../sass/layouts/_navbar.scss */
+.navbar .navbar-toggle {
+  background-color: #000;
+}
+/* line 6, ../sass/layouts/_navbar.scss */
+.navbar .navbar-toggle .icon-bar {
+  background-color: #f0b823 !important;
 }
 
-/* line 5, ../sass/layouts/_navbar.scss */
+/* Nav Pills */
+/* line 12, ../sass/layouts/_navbar.scss */
 .nav > li > a {
   color: #000000 !important;
 }
 
-/* line 9, ../sass/layouts/_navbar.scss */
+/* line 16, ../sass/layouts/_navbar.scss */
 .nav > li > a:hover, .nav > .active > a {
   background: #f0b823 !important;
 }
