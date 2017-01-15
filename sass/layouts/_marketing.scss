@@ -1,4 +1,4 @@
-/* Main marketing message and sign up button */
+/* Marketing & Content Frames */
 .jumbotron {
 	position: relative;
   min-height: 350px;
@@ -23,15 +23,13 @@ jframe {
   padding-left: 15px;
   margin: 40px 0;
 } 
-/*
-.marketing p + h4 {
-  margin-top: 28px;
-  background: gray;
-} 
-*/
+
 .marketing h3 {
 	text-align: left;
 }
-h3 a {
+h3 a, h3 li a {
   background: rgb(240,184,35) !important; 
+}
+li {
+  list-style: none;
 }
