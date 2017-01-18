@@ -4,13 +4,19 @@
  * <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
 /* @import "compass/reset"; */
+	@import "print";
 
-/**** Variables *****/ 
+/* Variables */ 
 
+/* Layouts */ 
 @import "layouts/header";
 @import "layouts/navbar"; 
-@import "base";
+@import "layouts/base";
 @import "layouts/marketing";
 @import "layouts/footer";
 @import "layouts/responsive";
-@import "layouts/blocks";
+
+/* Modules */
+@import "modules/showcase";
+@import "modules/blocks";
+@import "modules/buttons";

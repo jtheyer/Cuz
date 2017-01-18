@@ -1,4 +1,24 @@
 /* Welcome to Compass. Use this file to define print styles.
  * Import this file using the following HTML or equivalent:
  * <link href="stylesheets/print.css" media="print" rel="stylesheet" type="text/css" /> */
+
+ /* Make the masthead heading the same height as the navigation */
+.header h2 {
+  color:#000000;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+.header p {
+  color: #2f4f4f;
+}
  
+ /* Services Page */ 
+ .block-ag {
+	h4 {
+	text-align: left;
+	}
+}
+ul, ol {
+	list-style: none; 
+}
