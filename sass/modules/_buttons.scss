@@ -1,0 +1,29 @@
+/* Button config */
+
+/* Nav Pills */
+.nav > li > a {
+	color :#000000 !important;
+}
+.nav > li > a:hover, .nav > .active > a{
+	background: rgb(240,184,35) !important; 
+} 
+
+/* Buttons linked to outside source */ 
+.team-block a, .loc-block a {
+	background: rgba(240,184,35,0.7) !important;
+	margin: 3px 0;
+	 border-style: outset; 
+	 border-width: 3px;
+	 border-radius: 10px;
+	 border-color: rgb(240,184,35) !important;
+	 	&:hover{
+	 		background:rgb(240,184,35) !important;
+	 	}
+	 
+}
+
+/* Call button */
+.call {
+	border-style: outset;
+	 border-radius: 15px;
+}
