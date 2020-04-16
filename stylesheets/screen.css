@@ -52,6 +52,9 @@ ul, ol {
 /* Custom navbar */
 /* Collapse Button */
 /* line 4, ../sass/layouts/_navbar.scss */
+.navbar{
+  padding-top: 5px;
+}
 .navbar .navbar-toggle {
   background-color: #000;
 }
@@ -160,7 +163,6 @@ div .residential-section {
 /* line 13, ../sass/modules/_blocks.scss */
 div .block-residential {
   margin-right: 0px;
-  background: rgba(54, 124, 43, 0.3);
 }
 
 /* line 18, ../sass/modules/_blocks.scss */
@@ -177,6 +179,7 @@ div .ag-section {
 .team-block {
   background: #e7e7e7;
   margin: 10px;
+  border-radius: 10px;
 }
 
 /* Button config */
@@ -197,7 +200,7 @@ div .ag-section {
   background: rgba(240, 184, 35, 0.7) !important;
   margin: 3px 0;
   border-style: outset;
-  border-width: 3px;
+  border-width: 2px;
   border-radius: 10px;
   border-color: #f0b823 !important;
 }
@@ -210,5 +213,6 @@ div .ag-section {
 /* line 26, ../sass/modules/_buttons.scss */
 .call {
   border-style: outset;
-  border-radius: 15px;
+  border-radius: 10px;
+  border-width: 2px;
 }
